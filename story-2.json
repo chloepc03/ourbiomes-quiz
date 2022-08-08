@@ -1,0 +1,132 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "<<place street>>\n{{Emmy,happy}} Hi, I'm Emmy, and I'm here to tell you about an important but largely taboo topic. <b>endometriosis.</b>\n{{Emmy}} I must confess I first heard that once strange sounding but now very familiar word from my best friend, Angie. \n{{Emmy}} Would you like to hear about her story?\n[[Of course!|explanation]]\n[[I have something important to do right now.|awkward_pause]]",
+		"position": {
+			"x": 629,
+			"y": 109
+		},
+		"colorID": 0
+	},
+	{
+		"title": "awkward_pause",
+		"tags": "",
+		"body": "{{bobby}} ...Okay.\n//This is awkward. Why did you say no?\n...\n{{bobby}} ...\n[[...]]\n[[...So, about that secret ending?|secret]] <<random 5>>\n{{bobby}} Can we...\n[[Yeah fine, let's start.|explanation]]\n[[Sorry, I can't right now.|awkward_pause]]",
+		"position": {
+			"x": 928,
+			"y": 324
+		},
+		"colorID": 0
+	},
+	{
+		"title": "explanation",
+		"tags": "",
+		"body": "{{Emmy}} My best friend Angie and I always liked to sit at lunch together. She's the most cheerful girl I know, and I must confess the first time I ever saw her cry was the week before her diagnosis- one second we were laughing...\n{{bobby}} ...and the other second she was crouched in pain, with tears prickling her eyes.\n{{bobby}} Such a scene shocked me, but the story of her diagnosis is what still moves me to this day. You see, Emmy felt ashamed of anything having to do with her reproductive health, as her parents never spoke about it with her.\n[[Yeah it's very well written.|you_lier]]\n[[Not yet.|go_read_it]]\n[[Yes and it sucks. I hated it.|i_know_right]]",
+		"position": {
+			"x": 615,
+			"y": 540
+		},
+		"colorID": 0
+	},
+	{
+		"title": "i_know_right",
+		"tags": "",
+		"body": "{{bobby,happy}} Hahaha I don't care, I'm just a character in this story.\n//Well, I care. But yeah, the doc sucks for now. Sorry.\n[[{{bobby}} Anyway...|thanks_bobby]]",
+		"position": {
+			"x": 856,
+			"y": 901
+		},
+		"colorID": 0
+	},
+	{
+		"title": "you_lier",
+		"tags": "",
+		"body": "<<string liedToBobby true>>\n{{Emmy}} Angie tried to convince us she didn't need to go to the doctor, until the point she quite literally was fainting and could barely stand on her feet anymore.She was frustrated she felt unable to move, and run, and play on the soccer team with us because of her pain. \n{{bobby, sad}} And her doctor just gave her some aspirins and told her there was nothing wrong. When really, she only discovered there was something wrong by way of a third doctor's appointment.\n[[{{bobby}} The diagnosis felt scary. It was endometriosis. a chronic disorder that affected her uterus, and which gave her an enormous cyst near the lining of her uterus, the endometrium.|wow_that is so sad! tell me more.]]",
+		"position": {
+			"x": 374,
+			"y": 875
+		},
+		"colorID": 0
+	},
+	{
+		"title": "go_read_it",
+		"tags": "",
+		"body": "{{bobby,happy}} The truth is endometriosis is a taboo topic. But Angie has overcome the shame behind her diagnossi by advocating for endometriosis, and to let other girls know that any age can be affected, including happy, healthy, and active teens like her.\n{{bobby}} Furthermore, her diagnosis and support from those who loved her and cared for her made her confident in her future, despite the pain that would overcome her at times.\n{{bobby}} She's still the happy, smiling girl I know.\n{{bobby}} ...\n[[{{bobby,happy}} Oh, you must be done reading since you're back here!|thanks_bobby]]",
+		"position": {
+			"x": 611,
+			"y": 887
+		},
+		"colorID": 0
+	},
+	{
+		"title": "thanks_bobby",
+		"tags": "",
+		"body": "{{bobby}} You can open this story file in your dialogue editor now.\n{{bobby,happy}} And then you should be ready to start working on your own game!\n{{alice}} Who's working on a game?\n{{bobby,happy}} Oh hi, Alice!\n{{alice}} Who are you talking to, Bobby?\n[[{{bobby}} I have no idea, but they're cool.]] <<string liedToBobby != true>>\n[[{{bobby}} I have no idea, but they're cool. Well they lied to me once but it's okay.]] <<string liedToBobby == true>>\n{{angie,happy}} Thanks, Emmy, and thanks to you, the viewer, for learning more about endometriosis.\n[[{{bobby,happy}} Bye for now! |end]]",
+		"position": {
+			"x": 606,
+			"y": 1272
+		},
+		"colorID": 0
+	},
+	{
+		"title": "secret",
+		"tags": "",
+		"body": "[[{{bobby,happy}} I'm glad you found it!|end]]",
+		"position": {
+			"x": 1210,
+			"y": 1279
+		},
+		"colorID": 0
+	},
+	{
+		"title": "...",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 1048,
+			"y": 104
+		},
+		"colorID": 0
+	},
+	{
+		"title": "{{bobby}} I have no idea, but they're cool.",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 726,
+			"y": 1052
+		},
+		"colorID": 0
+	},
+	{
+		"title": "{{bobby}} I have no idea, but they're cool. Well they lied to me once but it's okay.",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 946,
+			"y": 1052
+		},
+		"colorID": 0
+	},
+	{
+		"title": "end",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 1166,
+			"y": 1052
+		},
+		"colorID": 0
+	},
+	{
+		"title": "wow_that is so sad! tell me more.",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 494,
+			"y": 655
+		},
+		"colorID": 0
+	}
+]
